@@ -9,7 +9,7 @@ export default function PopularVenues() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 2xl:grid-cols-8 gap-4 p-4">
         {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
-          <Card className="md:w-[252px]">
+          <Card  key={item} className="md:w-[252px]">
             <CardContent className="p-4 flex justify-center items-center">
               <img
                 width={150}

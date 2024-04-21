@@ -45,8 +45,8 @@ export default function LatestMedia() {
           <Card className="md:w-[252px]" key={item.id}>
             <CardContent className="p-4 flex justify-center items-center">
               <img
-                width={150}
-                height={150}
+                width={350}
+                height={350}
                 src={item.image}
                 alt="media"
               />

@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Evnetra - SFX & Event Management Company",
+  title: "Eventra - SFX & Event Management Company",
   description: "Eventra is a leading SFX & Event Management Company in India. We provide services for all types of events.",
 };
 

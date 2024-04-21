@@ -4,7 +4,11 @@ import React from "react";
 export default function ContactUspage() {
   return (
     <>
-      <div className="h-80 bg-[#F4F4F4]"></div>
+   <img
+        className="w-100 h-100"
+        src="https://image.wedmegood.com/resized/1900X/uploads/city_bg_image/17/jaipur_bg.jpg"
+        alt="banner"
+      />
       <div className="grid grid-cols-1 md:grid-cols-12 mt-10 justify-start">
         <div className="md:col-span-8">
           <ContactUsForm />

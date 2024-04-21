@@ -1,7 +1,11 @@
 export default function AboutPage() {
   return (
     <>
-      <div className="h-80 bg-[#F4F4F4]"></div>
+ <img
+        className="w-100 h-100"
+        src="https://image.wedmegood.com/resized/1900X/uploads/city_bg_image/17/jaipur_bg.jpg"
+        alt="banner"
+      />
       <div className="grid grid-cols-1 md:grid-cols-12 justify-center">
         <div className="col-span-6 m-10">
           <h3 className="text-lg font-semibold">About Us</h3>

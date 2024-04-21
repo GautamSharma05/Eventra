@@ -5,11 +5,18 @@ import PopularVenues from "@/components/Popular Venues/PopularVenues";
 import Image from "next/image";
 
 export default function Home() {
-  return <>
-  <div className="h-80 bg-[#F4F4F4]"></div>
-  <BrowseByCategory/>
-  <PopularVenues/>
-  <FeaturedVideos/>
-  <LatestMedia/>
-  </>;
+  return (
+    <>
+      <img
+        className="w-100 h-100"
+        src="https://image.wedmegood.com/resized/1900X/uploads/city_bg_image/17/jaipur_bg.jpg"
+        alt="banner"
+      />
+
+      <BrowseByCategory />
+      <PopularVenues />
+      <FeaturedVideos />
+      <LatestMedia />
+    </>
+  );
 }

@@ -13,7 +13,11 @@ import {
 export default function VenuePage() {
   return (
     <>
-      <div className="h-80 bg-[#F4F4F4]"></div>
+       <img
+        className="w-100 h-100"
+        src="https://image.wedmegood.com/resized/1900X/uploads/city_bg_image/17/jaipur_bg.jpg"
+        alt="banner"
+      />
       <div className="flex justify-around mt-5">
         <Select>
           <SelectTrigger className="w-[200px]">
